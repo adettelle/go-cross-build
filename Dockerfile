@@ -1,5 +1,5 @@
 # Debian GNU/Linux 10 (1.13.10-buster)
-FROM golang:1.22-bookworm
+FROM golang:1.23
 
 # copy entrypoint file
 COPY entrypoint.go /usr/bin/entrypoint.go
